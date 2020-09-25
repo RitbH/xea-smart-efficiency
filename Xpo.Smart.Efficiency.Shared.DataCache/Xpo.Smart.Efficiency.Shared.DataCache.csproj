@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xpo.Smart.Core.DataCache" Version="3.1.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.Data\Xpo.Smart.Efficiency.Shared.Data.csproj" />
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.Models\Xpo.Smart.Efficiency.Shared.Models.csproj" />
+  </ItemGroup>
+
+</Project>

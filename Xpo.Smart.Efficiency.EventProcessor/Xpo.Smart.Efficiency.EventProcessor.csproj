@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Xpo.Smart.Contracts.Primitives" Version="2.36.17" />
+    <PackageReference Include="Xpo.Smart.Core.Models.Canonical" Version="2.36.17" />
+    <PackageReference Include="Xpo.Smart.Kafka.Core" Version="1.0.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Engine\Xpo.Smart.Efficiency.Engine.csproj" />
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.DataCache\Xpo.Smart.Efficiency.Shared.DataCache.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    <PackageReference Include="Xpo.Smart.Core" Version="2.36.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Extensions\Xpo.Smart.Efficiency.Shared.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.DataCache\Xpo.Smart.Efficiency.Shared.DataCache.csproj" />
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.Models\Xpo.Smart.Efficiency.Shared.Models.csproj" />
+    <ProjectReference Include="..\Xpo.Smart.Efficiency.Shared.Services\Xpo.Smart.Efficiency.Shared.Services.csproj" />
+  </ItemGroup>
+
+</Project>
